@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find and Replace Tool</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Find and Replace Tool</h1>
+    <div id="editor" contenteditable="true"></div>
+    <form>
+      <label for="find">Find:</label>
+      <input type="text" id="find" name="find">
+      <label for="replace">Replace:</label>
+      <input type="text" id="replace" name="replace">
+      <button type="button" onclick="findAndReplace()">Find and Replace</button>
+      <button type="button" onclick="replaceAll()">Replace All</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
